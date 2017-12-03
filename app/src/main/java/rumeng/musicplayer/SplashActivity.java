@@ -106,7 +106,7 @@ public class SplashActivity extends AppCompatActivity {
     CountDownTimer count= new CountDownTimer(10000, 1000) {
          @Override
          public void onTick(long l) {
-             btnSkip.setText("跳过 "+l/1000+" s");
+             btnSkip.setText("跳过 "+l/500+" s");
 
          }
          @Override
