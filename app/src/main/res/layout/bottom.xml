@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+   >
+    <LinearLayout
+        android:id="@+id/ll_music"
+      style="@style/layoutStyle">
+        <ImageView
+            android:id="@+id/iv_music"
+            style="@style/imageStyle"
+            android:background="@drawable/music_background"></ImageView>
+        <TextView
+            android:id="@+id/tv_music"
+            style="@style/textStyle"
+            android:text="music"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_video"
+        style="@style/layoutStyle">
+        <ImageView
+            android:id="@+id/iv_video"
+            style="@style/imageStyle"
+            android:background="@drawable/video_background"
+          ></ImageView>
+        <TextView
+            android:id="@+id/tv_video"
+            style="@style/textStyle"
+            android:text="video"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_mine"
+        style="@style/layoutStyle">
+        <ImageView
+            android:id="@+id/iv_mine"
+          style="@style/imageStyle"
+          android:background="@drawable/mine_background" />
+        <TextView
+            android:id="@+id/tv_mine"
+            android:layout_width="wrap_content"
+            style="@style/textStyle"
+            android:text="mine"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
